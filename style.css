@@ -1,0 +1,294 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Lato", sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.main{
+	background: #222222;
+	height: 200%;
+	width: 100%;
+}
+
+.top-image{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(Assets/pemandangan.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.text-title{
+	text-align: center;
+	padding-top: 15rem;
+}
+
+h1{
+	font-size: 5rem;
+	color: white;
+}
+
+h2{
+	transition: 1s;
+	transform-origin: bottom;
+	transform: scaleY(0);
+	color: white;
+}
+
+
+h2[data-scroll="in"]{
+	transform: scaleY(1);
+}
+
+.about-page{
+	text-align: center;
+	background: #222222;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.h2-about{
+	font-size: 2.5rem;
+}
+
+img{
+	position: relative;
+	transition: 1s;
+	transform-origin: 1s;
+	transform-origin: bottom;
+	transform: scaleX(0);
+}
+
+img[data-scroll="in"]{
+	transform: scaleX(1);
+}
+
+img.profile{
+	border-radius: 50%;
+	width: 10rem;
+	margin-right: auto;
+	margin-top: 3rem;
+}
+
+.about{
+	font-size: 2.5rem;
+	margin-top: 2rem;
+}
+
+.opening{
+	margin-left: 10%;
+	max-width: 80%;
+	text-align: justify;
+	color: white;
+	font-size: 1.25rem;
+	margin-top: 2rem;
+}
+
+.programming{
+	margin-left: 10%;
+	max-width: 80%;
+	text-align: justify;
+	color: white;
+	font-size: 1.25rem;
+	margin-top: 2rem;
+}
+
+.fotografi{
+	margin-left: 10%;
+	max-width: 80%;
+	text-align: justify;
+	color: white;
+	font-size: 1.25rem;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+}
+
+p{
+	transition: 1s;
+	transform-origin: left;
+	transform: scaleX(0);
+	color: white;
+}
+
+p[data-scroll="in"]{
+	transform: scaleX(1);
+}
+
+.achievements{
+	margin-top: 10rem;
+	text-align: center;
+	background: #222222;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.achieve{
+	margin-top: 5rem;
+	font-size: 2.5rem;
+}
+
+h3{
+	transition: 1s;
+	transform-origin: right;
+	transform: scaleX(0);
+	color: white;
+}
+
+h3[data-scroll="in"]{
+	transform: scaleX(1);
+}
+
+h3.piagam1{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.7rem;
+	margin-top: 3rem;
+}
+
+.deskripsi1{
+	margin-left: 10%;
+	max-width: 80%;
+	text-align: justify;
+	color: white;
+	font-size: 1.25rem;
+	margin-top: 1%;
+}
+
+h3.piagam2{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.7rem;
+	margin-top: 5rem;
+}
+
+.deskripsi2{
+	color: white;
+	font-size: 1.25rem;
+	max-width: 80%;
+	margin-left: 10%;
+	text-align: justify;
+	margin-top: 0.5%;
+}
+
+img.fashion{
+	width: 15rem;
+	margin-right: auto;
+	margin-top: 1%;
+}
+
+.seminar-page{
+	margin-top: 10rem;
+	text-align: center;
+	background: #222222;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.seminar-title{
+	margin-top: 5rem;
+	font-size: 2.5rem;
+}
+
+.certificate1{
+	width: 35rem;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+.seminar1-deskripsi1{
+	text-align: center;
+	font-size: 1.25rem;
+	color: white;
+	margin-top: 0.5%;
+}
+
+.seminar1-deskripsi2{
+	max-width: 80%;
+	margin-left: 10%;
+	text-align: justify;
+	color: white;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.certificate2{
+	width: 35rem;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+.seminar2-deskripsi1{
+	text-align: center;
+	font-size: 1.25rem;
+	color: white;
+	margin-top: 0.5%;
+}
+
+.seminar2-deskripsi2{
+	max-width: 80%;
+	margin-left: 10%;
+	text-align: justify;
+	color: white;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.contact-page{
+	margin-top: 10rem;
+	text-align: center;
+	background: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 70vh;
+}
+
+.contact-title{
+	margin-top: 5rem;
+	font-size: 2.5rem;
+}
+
+.email-me{
+	margin-top: 3rem;
+	font-size: 2.2rem;
+}
+
+.phone-me{
+	margin-top: 2rem;
+	font-size: 2.2rem;
+}
+
+.linkedin{
+	width: 3rem;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+}
+
+.linkedin:hover{
+	width: 5rem;
+}
+
+.to-top{
+	border:0.25rem solid white;
+	padding: 0.10rem;
+	margin-top: 10rem;
+	text-decoration: none;
+	color: black;
+	background: white;
+	transition: 0.5s ease;
+}
+
+.to-top:hover{
+	background: black;
+	color: white;
+	border:0.25rem solid black;
+	transition: 0.5s ease;
+}
+
