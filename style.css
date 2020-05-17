@@ -73,16 +73,9 @@ h1{
 }
 
 h2{
-	transition: 1s;
-	transform-origin: bottom;
-	transform: scaleY(0);
 	color: white;
 }
 
-
-h2[data-scroll="in"]{
-	transform: scaleY(1);
-}
 
 .about-page{
 	text-align: center;
@@ -93,18 +86,6 @@ h2[data-scroll="in"]{
 
 .h2-about{
 	font-size: 2.5rem;
-}
-
-img{
-	position: relative;
-	transition: 1s;
-	transform-origin: 1s;
-	transform-origin: bottom;
-	transform: scaleX(0);
-}
-
-img[data-scroll="in"]{
-	transform: scaleX(1);
 }
 
 img.profile{
@@ -148,14 +129,7 @@ img.profile{
 }
 
 p{
-	transition: 1s;
-	transform-origin: left;
-	transform: scaleX(0);
 	color: white;
-}
-
-p[data-scroll="in"]{
-	transform: scaleX(1);
 }
 
 .achievements{
@@ -172,14 +146,7 @@ p[data-scroll="in"]{
 }
 
 h3{
-	transition: 1s;
-	transform-origin: right;
-	transform: scaleX(0);
 	color: white;
-}
-
-h3[data-scroll="in"]{
-	transform: scaleX(1);
 }
 
 h3.piagam1{
@@ -333,6 +300,7 @@ img.fashion{
 }
 
 .linkedin{
+	transition: 0.5s ease;
 	width: 3rem;
 	margin-top: 2rem;
 	margin-bottom: 5rem;
@@ -340,16 +308,19 @@ img.fashion{
 }
 
 .linkedin:hover{
+	transition: 0.5s ease;
 	width: 5rem;
 }
 
 .instagram{
+	transition: 0.5s ease;
 	width: 3rem;
 	margin-top: 2rem;
 	margin-bottom: 5rem;
 }
 
 .instagram:hover{
+	transition: 0.5s ease;
 	width: 5rem;
 }
 

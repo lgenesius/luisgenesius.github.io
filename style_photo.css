@@ -42,38 +42,6 @@ nav ul li a{
 	text-decoration: none;
 }
 
-h1{
-	transition: 1s;
-	transform-origin: top;
-	transform: scaleY(0);
-}
-
-
-h1[data-scroll="in"]{
-	transform: scaleY(1);
-}
-
-h2{
-	transition: 1s;
-	transform-origin: bottom;
-	transform: scaleY(0);
-}
-
-
-h2[data-scroll="in"]{
-	transform: scaleY(1);
-}
-
-p{
-	transition: 1s;
-	transform-origin: left;
-	transform: scaleX(0);
-}
-
-p[data-scroll="in"]{
-	transform: scaleX(1);
-}
-
 #home-btn{
 	margin-right: 3rem;
 }
