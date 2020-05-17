@@ -1,0 +1,838 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background: #f0faff;
+	height: 100%;
+	width: 100%;
+}
+
+nav{
+	height: 3.5rem;
+	background: black;
+	text-align: center;
+	width: 100%;
+	opacity: .8;
+}
+
+nav:hover{
+	opacity: 1;
+}
+
+nav ul{
+	margin-right: 1rem;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 0.25rem;
+	margin-top: 1.25rem;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 1.25rem;
+	text-decoration: none;
+}
+
+h1{
+	transition: 1s;
+	transform-origin: top;
+	transform: scaleY(0);
+}
+
+
+h1[data-scroll="in"]{
+	transform: scaleY(1);
+}
+
+h2{
+	transition: 1s;
+	transform-origin: bottom;
+	transform: scaleY(0);
+}
+
+
+h2[data-scroll="in"]{
+	transform: scaleY(1);
+}
+
+p{
+	transition: 1s;
+	transform-origin: left;
+	transform: scaleX(0);
+}
+
+p[data-scroll="in"]{
+	transform: scaleX(1);
+}
+
+#home-btn{
+	margin-right: 3rem;
+}
+
+#home-btn:hover{
+	color: yellow;
+}
+
+#photo-btn{
+	color: yellow;
+}
+
+.text{
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.text p{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.7rem;
+	margin-top: 2rem;
+}
+
+#temple{
+	width: 40rem;
+}
+
+.name{
+	font-size: 3rem;
+}
+
+.photography{
+	font-size: 2rem;
+	line-height: 1.25rem;
+}
+
+.photo-page1{
+	margin-top: 5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photo-page1-title{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page1-description{
+	max-width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page2{
+	margin-top: 5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#hiking{
+	width: 25rem;
+}
+
+.photo-page2-title{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page2-description{
+	max-width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page3{
+	margin-top: 5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tatung{
+	width: 20rem;
+}
+
+.photo-page3-title{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page3-description{
+	max-width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page4{
+	margin-top: 5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sunset{
+	width: 35rem;
+}
+
+.photo-page4-title{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page4-description{
+	max-width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page5{
+	margin-top: 5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#peace-of-mind{
+	width: 35rem;
+}
+
+.photo-page5-title{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page5-description{
+	max-width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page6{
+	margin-top: 5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sakkok{
+	width: 35rem;
+}
+
+.photo-page6-title{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page6-description{
+	max-width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page7{
+	margin-top: 5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bike{
+	width: 30rem;
+}
+
+.photo-page7-title{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page7-description{
+	max-width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.photo-page8{
+	margin-top: 5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photo-page8-title{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+#cap-go-meh{
+	width: 35rem;
+}
+
+.photo-page8-description{
+	max-width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 1.25rem;
+	margin-top: 0.5%;
+}
+
+.contact-page{
+	margin-top: 12rem;
+	text-align: center;
+	background: #f0faff;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 70vh;
+}
+
+.contact-title{
+	margin-top: 5rem;
+	font-size: 2.5rem;
+}
+
+.email-me{
+	margin-top: 3rem;
+	font-size: 2.2rem;
+}
+
+.phone-me{
+	margin-top: 2rem;
+	font-size: 2.2rem;
+}
+
+.linkedin{
+	transition: 0.5s ease;
+	width: 3rem;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	margin-right: 3rem;
+}
+
+.linkedin:hover{
+	transition: 0.5s ease;
+	width: 5rem;
+}
+
+.instagram{
+	transition: 0.5s ease;
+	width: 3rem;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+}
+
+.instagram:hover{
+	transition: 0.5s ease;
+	width: 5rem;
+}
+
+.to-top{
+	border:0.25rem solid black;
+	padding: 0.10rem;
+	margin-top: 10rem;
+	text-decoration: none;
+	color: white;
+	background: black;
+	transition: 0.5s ease;
+}
+
+.to-top:hover{
+	background: white;
+	color: black;
+	border:0.25rem solid white;
+	transition: 0.5s ease;
+}
+
+@media only screen and (max-width: 1024px){
+	nav ul li a{
+		font-size: 1.20rem;
+	}
+
+	.text p{
+		font-size: 1.6rem;
+	}
+
+	#temple{
+		width: 35rem;
+	}
+
+	.name{
+		font-size: 2.7rem;
+	}
+
+	.photography{
+		font-size: 1.8rem;
+	}
+
+	.photo-page1-title{
+		font-size: 1.20rem;
+	}
+
+	.photo-page1-description{
+		font-size: 1.20rem;
+	}
+
+
+	#hiking{
+		width: 23.5rem;
+	}
+
+	.photo-page2-title{
+		font-size: 1.20rem;
+	}
+
+	.photo-page2-description{
+		font-size: 1.20rem;
+	}
+
+	#tatung{
+		width: 18rem;
+	}
+
+	.photo-page3-title{
+		font-size: 1.20rem;
+	}
+
+	.photo-page3-description{
+		font-size: 1.20rem;
+	}
+
+	#sunset{
+		width: 32rem;
+	}
+
+	.photo-page4-title{
+		font-size: 1.20rem;
+	}
+
+	.photo-page4-description{
+		font-size: 1.20rem;
+	}
+
+	#peace-of-mind{
+		width: 32rem;
+	}
+
+	.photo-page5-title{
+		font-size: 1.20rem;
+	}
+
+	.photo-page5-description{
+		font-size: 1.20rem;
+	}
+
+	#sakkok{
+		width: 32rem;
+	}
+
+	.photo-page6-title{
+		font-size: 1.20rem;
+	}
+
+	.photo-page6-description{
+		font-size: 1.20rem;
+	}
+
+	#bike{
+		width: 27rem;
+	}
+
+	.photo-page7-title{
+		font-size: 1.20rem;
+	}
+
+	.photo-page7-description{
+		font-size: 1.20rem;
+	}
+
+	.photo-page8-title{
+		font-size: 1.20rem;
+	}
+
+	#cap-go-meh{
+		width: 32rem;
+	}
+
+	.photo-page8-description{
+		font-size: 1.20rem;
+	}
+
+	.contact-title{
+		font-size: 2rem;
+	}
+
+	.email-me{
+		font-size: 1.7rem;
+	}
+
+	.phone-me{
+		font-size: 1.7rem;
+	}
+
+	.linkedin{
+		width: 2rem;
+	}
+
+	.linkedin:hover{
+		width: 3.5rem;
+	}
+
+	.instagram{
+		width: 2rem;
+	}
+
+	.instagram:hover{
+		width: 3.5rem;
+	}
+}
+
+@media only screen and (max-width: 736px){
+	nav ul li a{
+		font-size: 1rem;
+	}
+
+	.text p{
+		font-size: 1.4rem;
+	}
+
+	#temple{
+		width: 28rem;
+	}
+
+	.name{
+		font-size: 2.4rem;
+	}
+
+	.photography{
+		font-size: 1.5rem;
+	}
+
+	.photo-page1-title{
+		font-size: 1rem;
+	}
+
+	.photo-page1-description{
+		font-size: 1rem;
+	}
+
+
+	#hiking{
+		width: 18rem;
+	}
+
+	.photo-page2-title{
+		font-size: 1rem;
+	}
+
+	.photo-page2-description{
+		font-size: 1rem;
+	}
+
+	#tatung{
+		width: 13rem;
+	}
+
+	.photo-page3-title{
+		font-size: 1rem;
+	}
+
+	.photo-page3-description{
+		font-size: 1rem;
+	}
+
+	#sunset{
+		width: 24rem;
+	}
+
+	.photo-page4-title{
+		font-size: 1rem;
+	}
+
+	.photo-page4-description{
+		font-size: 1rem;
+	}
+
+	#peace-of-mind{
+		width: 24rem;
+	}
+
+	.photo-page5-title{
+		font-size: 1rem;
+	}
+
+	.photo-page5-description{
+		font-size: 1rem;
+	}
+
+	#sakkok{
+		width: 24rem;
+	}
+
+	.photo-page6-title{
+		font-size: 1rem;
+	}
+
+	.photo-page6-description{
+		font-size: 1rem;
+	}
+
+	#bike{
+		width: 21rem;
+	}
+
+	.photo-page7-title{
+		font-size: 1rem;
+	}
+
+	.photo-page7-description{
+		font-size: 1rem;
+	}
+
+	.photo-page8-title{
+		font-size: 1rem;
+	}
+
+	#cap-go-meh{
+		width: 24rem;
+	}
+
+	.photo-page8-description{
+		font-size: 1rem;
+	}
+
+	.contact-title{
+		font-size: 1.8rem;
+	}
+
+	.email-me{
+		font-size: 1.5rem;
+	}
+
+	.phone-me{
+		font-size: 1.5rem;
+	}
+
+	.linkedin{
+		width: 1.8rem;
+	}
+
+	.linkedin:hover{
+		width: 3rem;
+	}
+
+	.instagram{
+		width: 1.8rem;
+	}
+
+	.instagram:hover{
+		width: 3rem;
+	}
+}
+
+@media screen and (max-width: 480px){
+	nav ul li a{
+		font-size: 1rem;
+	}
+
+	.text p{
+		font-size: 1.2rem;
+	}
+
+	#temple{
+		width: 21rem;
+	}
+
+	.name{
+		font-size: 2rem;
+	}
+
+	.photography{
+		font-size: 1.2rem;
+	}
+
+	.photo-page1-title{
+		font-size: 0.8rem;
+	}
+
+	.photo-page1-description{
+		font-size: 0.8rem;
+	}
+
+
+	#hiking{
+		width: 15rem;
+	}
+
+	.photo-page2-title{
+		font-size: 0.8rem;
+	}
+
+	.photo-page2-description{
+		font-size: 0.8rem;
+	}
+
+	#tatung{
+		width: 11rem;
+	}
+
+	.photo-page3-title{
+		font-size: 0.8rem;
+	}
+
+	.photo-page3-description{
+		font-size: 0.8rem;
+	}
+
+	#sunset{
+		width: 20rem;
+	}
+
+	.photo-page4-title{
+		font-size: 0.8rem;
+	}
+
+	.photo-page4-description{
+		font-size: 0.8rem;
+	}
+
+	#peace-of-mind{
+		width: 20rem;
+	}
+
+	.photo-page5-title{
+		font-size: 0.8rem;
+	}
+
+	.photo-page5-description{
+		font-size: 0.8rem;
+	}
+
+	#sakkok{
+		width: 20rem;
+	}
+
+	.photo-page6-title{
+		font-size: 0.8rem;
+	}
+
+	.photo-page6-description{
+		font-size: 0.8rem;
+	}
+
+	#bike{
+		width: 18rem;
+	}
+
+	.photo-page7-title{
+		font-size: 0.8rem;
+	}
+
+	.photo-page7-description{
+		font-size: 0.8rem;
+	}
+
+	.photo-page8-title{
+		font-size: 0.8rem;
+	}
+
+	#cap-go-meh{
+		width: 20rem;
+	}
+
+	.photo-page8-description{
+		font-size: 0.8rem;
+	}
+
+	.contact-title{
+		font-size: 1.6rem;
+	}
+
+	.email-me{
+		font-size: 1.3rem;
+	}
+
+	.phone-me{
+		font-size: 1.3rem;
+	}
+
+	.linkedin{
+		width: 1.6rem;
+	}
+
+	.linkedin:hover{
+		width: 2.5rem;
+	}
+
+	.instagram{
+		width: 1.6rem;
+	}
+
+	.instagram:hover{
+		width: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#temple{
+		width: 18rem;
+	}
+
+	#sunset{
+		width: 18rem;
+	}
+
+	#peace-of-mind{
+		width: 18rem;
+	}
+
+	#sakkok{
+		width: 18rem;
+	}
+
+	#bike{
+		width: 17rem;
+	}
+
+	#cap-go-meh{
+		width: 18rem;
+	}
+}

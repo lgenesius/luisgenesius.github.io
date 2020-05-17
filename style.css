@@ -10,7 +10,7 @@ html{
 
 .main{
 	background: #222222;
-	height: 200%;
+	height: 100%;
 	width: 100%;
 }
 
@@ -25,8 +25,45 @@ html{
 	text-align: center;
 }
 
-.text-title{
+nav{
+	height: 3.5rem;
+	background: #222222;
 	text-align: center;
+	width: 100%;
+	opacity: .8;
+}
+
+nav:hover{
+	opacity: 1;
+}
+
+nav ul{
+	margin-right: 1rem;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 0.25rem;
+	margin-top: 1.25rem;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 1.25rem;
+	text-decoration: none;
+}
+
+#home-btn{
+	margin-right: 3rem;
+	color: yellow;
+}
+
+#photo-btn:hover{
+	transition: 0.5s ease;
+	color: yellow;
+}
+
+.text-title{
 	padding-top: 15rem;
 }
 
@@ -122,7 +159,7 @@ p[data-scroll="in"]{
 }
 
 .achievements{
-	margin-top: 10rem;
+	margin-top: 15rem;
 	text-align: center;
 	background: #222222;
 	margin-left: auto;
@@ -184,7 +221,7 @@ img.fashion{
 }
 
 .seminar-page{
-	margin-top: 10rem;
+	margin-top: 15rem;
 	text-align: center;
 	background: #222222;
 	margin-left: auto;
@@ -203,6 +240,8 @@ img.fashion{
 }
 
 .seminar1-deskripsi1{
+	max-width: 80%;
+	margin-left: 10%;
 	text-align: center;
 	font-size: 1.25rem;
 	color: white;
@@ -225,6 +264,8 @@ img.fashion{
 }
 
 .seminar2-deskripsi1{
+	max-width: 80%;
+	margin-left: 10%;
 	text-align: center;
 	font-size: 1.25rem;
 	color: white;
@@ -240,8 +281,34 @@ img.fashion{
 	margin-top: 0.5%;
 }
 
+.photography-page{
+	margin-top: 7rem;
+	text-align: center;
+	background: #222222;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photograph{
+	margin-top: 5rem;
+	font-size: 2.5rem;
+}
+
+.my-photograph{
+	max-width: 80%;
+	margin-left: 10%;
+	font-size: 1.7rem;
+	margin-top: 3rem;
+}
+
+.temple{
+	width: 35rem;
+	margin-right: auto;
+	margin-top: 2%;
+}
+
 .contact-page{
-	margin-top: 10rem;
+	margin-top: 12rem;
 	text-align: center;
 	background: #222222;
 	margin-left: auto;
@@ -269,9 +336,20 @@ img.fashion{
 	width: 3rem;
 	margin-top: 2rem;
 	margin-bottom: 5rem;
+	margin-right: 3rem;
 }
 
 .linkedin:hover{
+	width: 5rem;
+}
+
+.instagram{
+	width: 3rem;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+}
+
+.instagram:hover{
 	width: 5rem;
 }
 
@@ -290,5 +368,395 @@ img.fashion{
 	color: white;
 	border:0.25rem solid black;
 	transition: 0.5s ease;
+}
+
+@media only screen and (max-width: 1024px){
+	h1.welcome{
+		font-size: 4rem;
+	}
+
+	.h2-about{
+		font-size: 2rem;
+	}
+
+	#home-btn{
+		font-size: 1.20rem;
+	}
+
+	#photo-btn{
+		font-size: 1.20rem;
+	}
+
+	img.profile{
+		width: 8rem;
+	}
+
+	.about{
+		font-size: 2rem;
+	}
+
+	.opening{
+		font-size: 1.10rem;
+	}
+
+	.programming{
+		font-size: 1.10rem;
+	}
+
+	.fotografi{
+		font-size: 1.10rem;
+	}
+
+	.achieve{
+		font-size: 2rem;
+	}
+
+	h3.piagam1{
+	font-size: 1.4rem;
+	}
+
+	.deskripsi1{
+		font-size: 1.10rem;
+	}
+
+	h3.piagam2{
+		font-size: 1.4rem;
+	}
+
+	.deskripsi2{
+		font-size: 1.10rem;
+	}
+
+	img.fashion{
+		width: 13rem;
+	}
+
+	.seminar-title{
+		font-size: 2rem;
+	}
+
+	.certificate1{
+		width: 28rem;
+	}
+
+	.seminar1-deskripsi1{
+	font-size: 1.10rem;
+	}
+
+	.seminar1-deskripsi2{
+	font-size: 1.10rem;
+	}
+
+	.certificate2{
+		width: 28rem;
+	}
+
+	.seminar2-deskripsi1{
+		font-size: 1.10rem;
+	}
+
+	.seminar2-deskripsi2{
+		font-size: 1.10rem;
+	}
+
+	.photograph{
+		font-size: 2rem;
+	}
+
+	.my-photograph{
+		font-size: 1.4rem;
+	}
+
+	.temple{
+		width: 28rem;
+	}
+
+	.contact-title{
+		font-size: 2rem;
+	}
+
+	.email-me{
+		font-size: 1.7rem;
+	}
+
+	.phone-me{
+		font-size: 1.7rem;
+	}
+
+	.linkedin{
+		width: 2rem;
+	}
+
+	.linkedin:hover{
+		width: 3.5rem;
+	}
+
+	.instagram{
+		width: 2rem;
+	}
+
+	.instagram:hover{
+		width: 3.5rem;
+	}
+}
+
+@media screen and (max-width: 736px){
+	h1.welcome{
+		font-size: 3.5rem;
+	}
+
+	.h2-about{
+		font-size: 1.8rem;
+	}
+
+	#home-btn{
+		font-size: 1.15rem;
+	}
+
+	#photo-btn{
+		font-size: 1.15rem;
+	}
+
+	img.profile{
+		width: 7rem;
+	}
+
+	.about{
+		font-size: 1.8rem;
+	}
+
+	.opening{
+		font-size: 1rem;
+	}
+
+	.programming{
+		font-size: 1rem;
+	}
+
+	.fotografi{
+		font-size: 1rem;
+	}
+
+	.achieve{
+		font-size: 1.8rem;
+	}
+
+	h3.piagam1{
+	font-size: 1.3rem;
+	}
+
+	.deskripsi1{
+		font-size: 1rem;
+	}
+
+	h3.piagam2{
+		font-size: 1.3rem;
+	}
+
+	.deskripsi2{
+		font-size: 1rem;
+	}
+
+	img.fashion{
+		width: 11.5rem;
+	}
+
+	.seminar-title{
+		font-size: 1.8rem;
+	}
+
+	.certificate1{
+		width: 25rem;
+	}
+
+	.seminar1-deskripsi1{
+	font-size: 1rem;
+	}
+
+	.seminar1-deskripsi2{
+	font-size: 1rem;
+	}
+
+	.certificate2{
+		width: 25rem;
+	}
+
+	.seminar2-deskripsi1{
+		font-size: 1rem;
+	}
+
+	.seminar2-deskripsi2{
+		font-size: 1rem;
+	}
+
+	.photograph{
+		font-size: 1.8rem;
+	}
+
+	.my-photograph{
+		font-size: 1.3rem;
+	}
+
+	.temple{
+		width: 27rem;
+	}
+
+	.contact-title{
+		font-size: 1.8rem;
+	}
+
+	.email-me{
+		font-size: 1.5rem;
+	}
+
+	.phone-me{
+		font-size: 1.5rem;
+	}
+
+	.linkedin{
+		width: 1.8rem;
+	}
+
+	.linkedin:hover{
+		width: 3rem;
+	}
+
+	.instagram{
+		width: 1.8rem;
+	}
+
+	.instagram:hover{
+		width: 3rem;
+	}
+}
+
+@media screen and (max-width: 480px){
+	h1.welcome{
+		font-size: 3.4rem;
+	}
+
+	.h2-about{
+		font-size: 1.6rem;
+	}
+
+	#home-btn{
+		font-size: 1rem;
+	}
+
+	#photo-btn{
+		font-size: 1rem;
+	}
+
+	img.profile{
+		width: 5.5rem;
+	}
+
+	.about{
+		font-size: 1.6rem;
+	}
+
+	.opening{
+		font-size: 0.8rem;
+	}
+
+	.programming{
+		font-size: 0.8rem;
+	}
+
+	.fotografi{
+		font-size: 0.8rem;
+	}
+
+	.achieve{
+		font-size: 1.6rem;
+	}
+
+	h3.piagam1{
+	font-size: 1.10rem;
+	}
+
+	.deskripsi1{
+		font-size: 0.8rem;
+	}
+
+	h3.piagam2{
+		font-size: 1.10rem;
+	}
+
+	.deskripsi2{
+		font-size: 0.8rem;
+	}
+
+	img.fashion{
+		width: 10rem;
+	}
+
+	.seminar-title{
+		font-size: 1.6rem;
+	}
+
+	.certificate1{
+		width: 18rem;
+	}
+
+	.seminar1-deskripsi1{
+	font-size: 0.8rem;
+	}
+
+	.seminar1-deskripsi2{
+	font-size: 0.8rem;
+	}
+
+	.certificate2{
+		width: 18rem;
+	}
+
+	.seminar2-deskripsi1{
+		font-size: 0.8rem;
+	}
+
+	.seminar2-deskripsi2{
+		font-size: 0.8rem;
+	}
+
+	.photograph{
+		font-size: 1.6rem;
+	}
+
+	.my-photograph{
+		font-size: 1.10rem;
+	}
+
+	.temple{
+		width: 18rem;
+	}
+
+	.contact-title{
+		font-size: 1.6rem;
+	}
+
+	.email-me{
+		font-size: 1.3rem;
+	}
+
+	.phone-me{
+		font-size: 1.3rem;
+	}
+
+	.linkedin{
+		width: 1.6rem;
+	}
+
+	.linkedin:hover{
+		width: 2.5rem;
+	}
+
+	.instagram{
+		width: 1.6rem;
+	}
+
+	.instagram:hover{
+		width: 2.5rem;
+	}
 }
 
