@@ -6,3 +6,4 @@ https://lgenesius.github.io/luisgenesius.github.io/
 
 ## Description
 Created using HTML and CSS with Responsive Design. This is my first project of HTML and CSS.
+I used Sublime Text 3 for the text editor.
