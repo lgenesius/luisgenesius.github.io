@@ -8,6 +8,6 @@ https://lgenesius.github.io/luisgenesius.github.io/
 This is my first project of HTML and CSS.
 
 ## Technologies
-▸ HTML
-▸ CSS
+▸ HTML<br>
+▸ CSS<br>
 ▸ Text Editor : Sublime Text 3
