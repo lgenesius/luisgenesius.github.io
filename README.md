@@ -5,5 +5,9 @@ This is my first Portfolio
 https://lgenesius.github.io/luisgenesius.github.io/
 
 ## Description
-Created using HTML and CSS with Responsive Design. This is my first project of HTML and CSS.
-I used Sublime Text 3 for the text editor.
+This is my first project of HTML and CSS.
+
+## Technologies
+▸ HTML
+▸ CSS
+▸ Text Editor : Sublime Text 3
